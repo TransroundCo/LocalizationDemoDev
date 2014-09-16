@@ -1,7 +1,7 @@
-App Localization Demo
-=====================
+Nativer SDK
+===========
 
-<h1>Nativer SDK technical background</h1>
+<h1>Technical background</h1>
 
 <h1>1.&nbsp;&nbsp; Glossary:</h1>
 
@@ -13,17 +13,10 @@ App Localization Demo
 
 <p>Nativer Application: This is Transround&rsquo;s own application, called Nativer, which implements majority of the functionality of the Nativer Ecosystem, like requesting localizations, downloading ready localizations, translate, proof reading, support, etc.</p>
 
-<p>&nbsp;</p>
-
 <h1>2.&nbsp;&nbsp; Nativer SDK</h1>
 
-<h2>2.1&nbsp;&nbsp;&nbsp;&nbsp; Nativer SDK - generalities</h2>
 
-<p>Majority of developers use at least one 3rd party SDK (Google Analytics, Advertisment ,etc.) in their applications. As this is a widely used practice, using of the Nativer SDK should not be a problem. If you have no experience with using SDK, please follow thoroughly our tutorial.</p>
-
-<p>&nbsp;</p>
-
-<h2>2.2&nbsp;&nbsp;&nbsp;&nbsp; Nativer SDK - technology</h2>
+<h2>2.1&nbsp;&nbsp;&nbsp;&nbsp; Nativer SDK - technology</h2>
 
 <p>Nativer SDK uses Aspect Oriented Programming (AOP) technique. Aspect-Oriented Programming is a software development technology that seeks new modularizations of software systems in order to isolate secondary or supporting functions from the main program&#39;s business logic.</p>
 
@@ -43,8 +36,6 @@ App Localization Demo
 
 <p><a href="http://www.eclipse.org/aspectj/doc/released/progguide/index.html">http://www.eclipse.org/aspectj/doc/released/progguide/index.html</a></p>
 
-<p>&nbsp;</p>
-
 <p>A few examples of Android AspectJ on Google.com:</p>
 
 <p><a href="http://code.google.com/p/android-aspectj/">http://code.google.com/p/android-aspectj/</a></p>
@@ -52,8 +43,6 @@ App Localization Demo
 <p><a href="http://code.google.com/p/android-aspectj/wiki/IntegrationwithMaven">http://code.google.com/p/android-aspectj/wiki/IntegrationwithMaven</a></p>
 
 <p><a href="http://code.google.com/p/android-aspectj/source/checkout">http://code.google.com/p/android-aspectj/source/checkout</a></p>
-
-<p>&nbsp;</p>
 
 <p>The Nativer SDK carefully treats the followings:</p>
 
