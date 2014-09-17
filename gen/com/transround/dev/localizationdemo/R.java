@@ -17,12 +17,7 @@ public final class R {
         public static final int abc_slide_out_top=0x7f040005;
     }
     public static final class array {
-        public static final int english_users_array=0x7f0e0003;
         public static final int languages_array=0x7f0e0000;
-        public static final int local_language_users_array=0x7f0e0004;
-        public static final int population_array=0x7f0e0001;
-        public static final int smartphone_penetration_array=0x7f0e0005;
-        public static final int smartphone_users_array=0x7f0e0002;
     }
     public static final class attr {
         /**  Custom divider drawable to use for elements in the action bar. 
@@ -1088,7 +1083,7 @@ containing a value of this type.
         public static final int action_bar_subtitle=0x7f070023;
         public static final int action_bar_title=0x7f070022;
         public static final int action_context_bar=0x7f07001d;
-        public static final int action_help=0x7f070045;
+        public static final int action_help=0x7f070046;
         public static final int action_menu_divider=0x7f070016;
         public static final int action_menu_presenter=0x7f070017;
         public static final int action_mode_close_button=0x7f070024;
@@ -1102,6 +1097,7 @@ containing a value of this type.
         public static final int default_activity_button=0x7f070028;
         public static final int dialog=0x7f07000e;
         public static final int disableHome=0x7f070008;
+        public static final int drop_down_item=0x7f070045;
         public static final int dropdown=0x7f07000f;
         public static final int edit_query=0x7f070030;
         public static final int end=0x7f070013;
@@ -1214,7 +1210,7 @@ containing a value of this type.
         public static final int languages=0x7f060000;
     }
     public static final class string {
-        public static final int DIFFERENT_SOURCE_LENGTH_EXCEPTION=0x7f0c001e;
+        public static final int DIFFERENT_SOURCE_LENGTH_EXCEPTION=0x7f0c0029;
         /**  Content description for the action bar "home" affordance. [CHAR LIMIT=NONE] 
          */
         public static final int abc_action_bar_home_description=0x7f0c0001;
@@ -1268,6 +1264,17 @@ containing a value of this type.
         public static final int label_population=0x7f0c0010;
         public static final int label_smartphone_penetration=0x7f0c0014;
         public static final int label_smartphone_users=0x7f0c0011;
+        public static final int lang_display_name_ar=0x7f0c0023;
+        public static final int lang_display_name_cmn=0x7f0c001e;
+        public static final int lang_display_name_de=0x7f0c0024;
+        public static final int lang_display_name_es_es=0x7f0c0020;
+        public static final int lang_display_name_fr=0x7f0c0025;
+        public static final int lang_display_name_hi=0x7f0c001f;
+        public static final int lang_display_name_ko=0x7f0c0028;
+        public static final int lang_display_name_pl=0x7f0c0027;
+        public static final int lang_display_name_pt=0x7f0c0022;
+        public static final int lang_display_name_ru=0x7f0c0021;
+        public static final int lang_display_name_tr=0x7f0c0026;
         public static final int send_to=0x7f0c0018;
         public static final int transround_help_link=0x7f0c001d;
         public static final int transround_info_email=0x7f0c001b;

@@ -1,79 +1,72 @@
 package com.transround.dev.localizationdemo;
 
 public class Language {
-	String name;
-	long population;
-	long smartPhoneUsers;
-	long englishUsers;
-	long localLanguageUsers;
-	double smartPhonePenetration;
+	String mLanguageCode;
+	long mPopulation;
+	long mSmartPhoneUsers;
+	long mEnglishUsers;
+	long mLocalLanguageUsers;
+	double mSmartPhonePenetration;
 
 	public Language() {
 		super();
 	}
 
-	public Language(String name, int population, int englishUsers,
-			long localLanguageUsers, int smartPhonePenetration) {
+	public Language(int population, int englishUsers, long localLanguageUsers,
+			int smartPhonePenetration) {
 		super();
-		this.name = name;
-		this.population = population;
-		this.englishUsers = englishUsers;
-		this.localLanguageUsers = localLanguageUsers;
-		this.smartPhonePenetration = smartPhonePenetration;
+		this.mPopulation = population;
+		this.mEnglishUsers = englishUsers;
+		this.mLocalLanguageUsers = localLanguageUsers;
+		this.mSmartPhonePenetration = smartPhonePenetration;
 	}
 
-	public String getName() {
-		return name;
+	public String getLanguageCode() {
+		return mLanguageCode;
 	}
 
-	public void setName(String name) {
-		this.name = name;
+	public void setLanguageCode(String languageCode) {
+		this.mLanguageCode = languageCode;
 	}
 
 	public long getPopulation() {
-		return population;
+		return mPopulation;
 	}
 
 	public void setPopulation(long population) {
-		this.population = population;
+		this.mPopulation = population;
 	}
 
 	public long getSmartPhoneUsers() {
-		return smartPhoneUsers;
+		return mSmartPhoneUsers;
 	}
 
 	public void setSmartPhoneUsers(long smartPhoneUsers) {
-		this.smartPhoneUsers = smartPhoneUsers;
+		this.mSmartPhoneUsers = smartPhoneUsers;
 	}
 
 	public long getEnglishUsers() {
-		return englishUsers;
+		return mEnglishUsers;
 	}
 
 	public void setEnglishUsers(long englishUsers) {
-		this.englishUsers = englishUsers;
+		this.mEnglishUsers = englishUsers;
 	}
 
 	public long getLocalLanguageUsers() {
-		return localLanguageUsers;
+		return mLocalLanguageUsers;
 	}
 
 	public void setLocalLanguageUsers(long localLanguageUsers) {
-		this.localLanguageUsers = localLanguageUsers;
+		this.mLocalLanguageUsers = localLanguageUsers;
 	}
 
 	public double getSmartPhonePenetration() {
-		return smartPhonePenetration;
+		return mSmartPhonePenetration;
 	}
 
 	public void setSmartPhonePenetration(double smartPhonePenetration) {
-		this.smartPhonePenetration = smartPhonePenetration;
-	}
-
-	@Override
-	public String toString() {
-
-		return getName();
+		this.mSmartPhonePenetration = smartPhonePenetration;
 	}
 
 }

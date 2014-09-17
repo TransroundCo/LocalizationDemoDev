@@ -19,85 +19,32 @@
     <string name="transround_link">http://transround.com</string>
     <string name="transround_help_link">http://www.transround.com/demohelpdev</string>
 
+    <string name="lang_display_name_cmn">Mandarin</string>
+    <string name="lang_display_name_hi">Hindi</string>
+    <string name="lang_display_name_es_es">Castillian</string>
+    <string name="lang_display_name_ru">Russian</string>
+    <string name="lang_display_name_pt">Portuguese</string>
+    <string name="lang_display_name_ar">Arab</string>
+    <string name="lang_display_name_de">German</string>
+    <string name="lang_display_name_fr">French</string>
+    <string name="lang_display_name_tr">Turkey</string>
+    <string name="lang_display_name_pl">Polish</string>
+    <string name="lang_display_name_ko">Korean</string>    
+    
     <string-array name="languages_array">
-        <item>Mandarin</item>
-        <item>Hindi</item>
-        <item>Castillian</item>
-        <item>Russian</item>
-        <item>Portugese</item>
-        <item>Arab</item>
-        <item>German</item>
-        <item>French</item>
-        <item>Turkey</item>
-        <item>Polish</item>
-        <item>Korean </item>
-    </string-array>
-    <string-array name="population_array">
-        <item>797074090</item>
-        <item>422300000</item>
-        <item>762263329</item>
-        <item>199515605</item>
-        <item>202999496</item>
-        <item>241308400</item>
-        <item>82191000</item>
-        <item>73634516</item>
-        <item>70586256</item>
-        <item>38501000</item>
-        <item>50200000</item>
-    </string-array>
-    <string-array name="smartphone_users_array">
-        <item>196882451</item>
-        <item>63345000</item>
-        <item>137131055</item>
-        <item>68006956</item>
-        <item>31181909</item>
-        <item>65674385</item>
-        <item>23835390</item>
-        <item>27205958</item>
-        <item>16940701</item>
-        <item>13090340</item>
-        <item>36144000</item>
-    </string-array>
-    <string-array name="english_users_array">
-        <item>2010163</item>
-        <item>7702752</item>
-        <item>18446895</item>
-        <item>3587632</item>
-        <item>2477760</item>
-        <item>19105087</item>
-        <item>13347818</item>
-        <item>10110770</item>
-        <item>2879919</item>
-        <item>4319812</item>
-        <item>7951680</item>
-    </string-array>
-    <string-array name="local_language_users_array">
-        <item>194872288</item>
-        <item>55642248</item>
-        <item>118684160</item>
-        <item>64419324</item>
-        <item>28704150</item>
-        <item>46569298</item>
-        <item>10487572</item>
-        <item>17095187</item>
-        <item>14060782</item>
-        <item>8770528</item>
-        <item>28192320</item>
-    </string-array>
-    <string-array name="smartphone_penetration_array">
-        <item>24.7</item>
-        <item>15.0</item>
-        <item>18.0</item>
-        <item>34.1</item>
-        <item>15.4</item>
-        <item>27.2</item>
-        <item>29.0</item>
-        <item>36.9</item>
-        <item>24.0</item>
-        <item>34.0</item>
-        <item>72.0</item>
-    </string-array>
-
+        <item>@string/lang_display_name_cmn</item>
+        <item>@string/lang_display_name_hi</item>
+        <item>@string/lang_display_name_es_es</item>
+        <item>@string/lang_display_name_ru</item>
+        <item>@string/lang_display_name_pt</item>
+        <item>@string/lang_display_name_ar</item>
+        <item>@string/lang_display_name_de</item>
+        <item>@string/lang_display_name_fr</item>
+        <item>@string/lang_display_name_tr</item>
+        <item>@string/lang_display_name_pl</item>
+        <item>@string/lang_display_name_ko</item>
+    </string-array> 
+    
     <string name="DIFFERENT_SOURCE_LENGTH_EXCEPTION">The length of input arrays are different!</string>
 
 </resources>

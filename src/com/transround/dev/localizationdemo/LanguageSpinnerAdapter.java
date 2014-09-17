@@ -12,17 +12,20 @@ import android.widget.ArrayAdapter;
 import android.widget.TextView;
 
 public class LanguageSpinnerAdapter extends ArrayAdapter<Language> {
-
 	Context mContext;
-	int layoutResourceId;
-	List<Language> countryList = new ArrayList<Language>();
+	int mLayoutResourceId;	
+	int mDropDownResourceId;
+	List<Language> mLanguageList = new ArrayList<Language>();
 
-	public LanguageSpinnerAdapter(Context context, int resource,
+	public LanguageSpinnerAdapter(Context context,
 			List<Language> objects) {
-		super(context, resource, objects);
-		this.layoutResourceId = resource;
+		super(context, R.layout.custom_spinner, objects);
+		this.mLayoutResourceId = R.layout.custom_spinner;		
+		this.mDropDownResourceId = R.layout.custom_spinner_item;
 		this.mContext = context;
-		this.countryList = objects;
+		this.mLanguageList = objects;
+		
+		setDropDownViewResource(R.layout.custom_spinner_item);
 	}
 
 	@Override
@@ -30,14 +33,38 @@ public class LanguageSpinnerAdapter extends ArrayAdapter<Language> {
 
 		if (convertView == null) {
 			LayoutInflater inflater = ((Activity) mContext).getLayoutInflater();
-			convertView = inflater.inflate(layoutResourceId, parent, false);
+			convertView = inflater.inflate(mLayoutResourceId, parent, false);
 		}
 
-		Language item = countryList.get(position);
+		Language item = mLanguageList.get(position);
 
 		TextView spinnerTitle = (TextView) convertView
 				.findViewById(R.id.spinner_language);
-		spinnerTitle.setText(item.getName());
+		spinnerTitle.setText(LanguageHelper.getLanguageName(mContext,
+				item.getLanguageCode()));
+		return convertView;
+	}
+
+	@Override
+	public View getDropDownView(int position, View convertView, ViewGroup parent) {		
+		
+		if (convertView == null) {
+			LayoutInflater inflater = ((Activity) mContext).getLayoutInflater();
+			convertView = inflater.inflate(mDropDownResourceId, parent, false);
+		}
+		
+		TextView dropDownItem;
+		if(convertView instanceof TextView){
+			dropDownItem = (TextView) convertView;
+		} else {
+			dropDownItem = (TextView) convertView.findViewById(R.id.drop_down_item);
+		}
+		
+		Language item = mLanguageList.get(position);
+		
+		dropDownItem.setText(LanguageHelper.getLanguageName(mContext,
+				item.getLanguageCode()));
+
 		return convertView;
 	}
 

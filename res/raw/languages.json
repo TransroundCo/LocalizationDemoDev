@@ -1,0 +1,105 @@
+{
+	"languages": [
+		{
+			"languageCode": "cmn",
+			"population":  797074090,
+			"smartPhoneUsers":  196882451,
+			"smartPhonePenetration": 24.7,
+			"englishUsers":  2010163,
+			"localLanguageUsers":  194872288
+		},
+
+		{
+			"languageCode": "hi",
+			"population":  422300000,
+			"smartPhoneUsers":  63345000,
+			"smartPhonePenetration": 15.0,
+			"englishUsers":  7702752,
+			"localLanguageUsers":  55642248
+
+		},
+
+		{
+			"languageCode": "es_es",
+			"population":  762263329,
+			"smartPhoneUsers":  137131055,
+			"smartPhonePenetration": 18.0,
+			"englishUsers":  18446895,
+			"localLanguageUsers":  118684160
+
+		},
+
+		{
+			"languageCode": "ru",
+			"population":  199515605 ,
+			"smartPhoneUsers":  68006956 ,
+			"smartPhonePenetration": 34.1,
+			"englishUsers":  3587632,
+			"localLanguageUsers":  64419324
+
+		},
+
+		{
+			"languageCode": "pt",
+			"population":  202999496,
+			"smartPhoneUsers":  31181909,
+			"smartPhonePenetration": 15.4,
+			"englishUsers":  2477760,
+			"localLanguageUsers":  28704150
+		},
+
+		{
+			"languageCode": "ar",
+			"population":  241308400,
+			"smartPhoneUsers":  65674385,
+			"smartPhonePenetration": 27.2,
+			"englishUsers":  19105087,
+			"localLanguageUsers":  46569298
+		},
+
+		{
+			"languageCode": "de",
+			"population":  82191000,
+			"smartPhoneUsers":  23835390,
+			"smartPhonePenetration": 29.0,
+			"englishUsers":  13347818 ,
+			"localLanguageUsers":  10487572
+		},
+
+		{
+			"languageCode": "fr",
+			"population":  73634516,
+			"smartPhoneUsers":  27205958,
+			"smartPhonePenetration": 36.9,
+			"englishUsers":  10110770,
+			"localLanguageUsers":  17095187
+		},
+
+		{
+			"languageCode": "tr",
+			"population":  70586256,
+			"smartPhoneUsers":  16940701,
+			"smartPhonePenetration": 24.0,
+			"englishUsers":  2879919,
+			"localLanguageUsers":  14060782
+		},
+
+		{
+			"languageCode": "pl",
+			"population":  38501000,
+			"smartPhoneUsers":  13090340,
+			"smartPhonePenetration": 34.0,
+			"englishUsers":  4319812,
+			"localLanguageUsers":  8770528
+		},
+
+		{
+			"languageCode": "ko",
+			"population":  50200000,
+			"smartPhoneUsers":  36144000,
+			"smartPhonePenetration": 72.0,
+			"englishUsers":  7951680,
+			"localLanguageUsers":  28192320
+		} 
+	]
+}

@@ -1,5 +1,6 @@
 package com.transround.dev.localizationdemo;
 
+import java.text.NumberFormat;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -15,16 +16,13 @@ public class LanguageDetailArrayAdapter extends
 		ArrayAdapter<LanguageDetailListItem> {
 
 	Context mContext;
-	int layoutResourceId;
-	List<LanguageDetailListItem> countryDetailList = new ArrayList<LanguageDetailListItem>();
+	int mLayoutResourceId;
 
-	public LanguageDetailArrayAdapter(Context context, int layoutResourceId,
-			List<LanguageDetailListItem> objects) {
-		super(context, layoutResourceId, objects);
-
-		this.layoutResourceId = layoutResourceId;
+	public LanguageDetailArrayAdapter(Context context, Language language) {
+		super(context, R.layout.custom_list_item, getLanguageDetailList(
+				context, language));
+		this.mLayoutResourceId = R.layout.custom_list_item;
 		this.mContext = context;
-		this.countryDetailList = objects;
 	}
 
 	@Override
@@ -32,10 +30,10 @@ public class LanguageDetailArrayAdapter extends
 
 		if (convertView == null) {
 			LayoutInflater inflater = ((Activity) mContext).getLayoutInflater();
-			convertView = inflater.inflate(layoutResourceId, parent, false);
+			convertView = inflater.inflate(mLayoutResourceId, parent, false);
 		}
 
-		LanguageDetailListItem item = countryDetailList.get(position);
+		LanguageDetailListItem item = getItem(position);
 
 		TextView textViewTitle = (TextView) convertView
 				.findViewById(R.id.itemTitle);
@@ -45,6 +43,37 @@ public class LanguageDetailArrayAdapter extends
 				.findViewById(R.id.itemValue);
 		textViewValue.setText(item.getValue());
 		return convertView;
+	}
+
+	private static List<LanguageDetailListItem> getLanguageDetailList(
+			Context context, Language language) {
+		List<LanguageDetailListItem> languageDetailListItems = new ArrayList<LanguageDetailListItem>();
+		NumberFormat formatter = NumberFormat.getInstance();
+		languageDetailListItems.add(new LanguageDetailListItem(context
+				.getResources().getString(R.string.label_population), String
+				.valueOf(formatter.format(language.getPopulation()))));
+
+		languageDetailListItems
+				.add(new LanguageDetailListItem(context.getResources()
+						.getString(R.string.label_smartphone_users),
+						String.valueOf(formatter.format(language
+								.getSmartPhoneUsers()))));
+
+		languageDetailListItems.add(new LanguageDetailListItem(context
+				.getResources().getString(R.string.label_english_users), String
+				.valueOf(formatter.format(language.getEnglishUsers()))));
+
+		languageDetailListItems.add(new LanguageDetailListItem(context
+				.getResources().getString(R.string.label_local_language_users),
+				String.valueOf(formatter.format(language
+						.getLocalLanguageUsers()))));
+
+		languageDetailListItems.add(new LanguageDetailListItem(context
+				.getResources()
+				.getString(R.string.label_smartphone_penetration), String
+				.valueOf(language.getSmartPhonePenetration() + "%")));
+
+		return languageDetailListItems;
 	}
 
 }
