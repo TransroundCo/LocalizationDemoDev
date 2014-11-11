@@ -1,10 +1,10 @@
 package com.transround.dev.localizationdemo;
 
-public class LanguageDetailListItem {
+public class DetailListItem {
 	String mTitle;
 	String mValue;
 
-	public LanguageDetailListItem(String title, String value) {
+	public DetailListItem(String title, String value) {
 		super();
 		this.mTitle = title;
 		this.mValue = value;

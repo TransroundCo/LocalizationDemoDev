@@ -11,7 +11,9 @@ public class HelpActivity extends Activity {
 		super.onCreate(savedInstanceState);
 		WebView webview = new WebView(this);
 		setContentView(webview);
-		webview.loadUrl(getResources().getString(R.string.transround_help_link));
+		
+		webview.loadUrl(getResources().getString(R.string.localization_demo_transround_help_link));
+
 	}
 
 }

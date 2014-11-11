@@ -1,50 +1,30 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-
-    <string name="app_name">App Localization Demo Dev</string>
-    <string name="label_demo_instructions">Demo instructions</string>
-    <string name="label_language">Language</string>
-    <string name="label_population">Population</string>
-    <string name="label_smartphone_users">Smartphone users</string>
-    <string name="label_english_users">English users</string>
-    <string name="label_local_language_users">Local language users</string>
-    <string name="label_smartphone_penetration">Smartphone penetration</string>
-    <string name="button_share">Share</string>
-    <string name="button_feedback">Feedback</string>
-    <string name="ic_action_help">Help</string>
-    <string name="send_to">Share</string>
-    <string name="header_choose_email_client">Choose an Email client :</string>
-    <string name="feedback_email_subject">App Localization Demo feedback</string>
-    <string name="transround_info_email">info@transround.com</string>
-    <string name="transround_link">http://transround.com</string>
-    <string name="transround_help_link">http://www.transround.com/demohelpdev</string>
-
-    <string name="lang_display_name_cmn">Mandarin</string>
-    <string name="lang_display_name_hi">Hindi</string>
-    <string name="lang_display_name_es_es">Castillian</string>
-    <string name="lang_display_name_ru">Russian</string>
-    <string name="lang_display_name_pt">Portuguese</string>
-    <string name="lang_display_name_ar">Arab</string>
-    <string name="lang_display_name_de">German</string>
-    <string name="lang_display_name_fr">French</string>
-    <string name="lang_display_name_tr">Turkey</string>
-    <string name="lang_display_name_pl">Polish</string>
-    <string name="lang_display_name_ko">Korean</string>    
+    <string name="localization_demo_transround_help_link">http://www.transround.com/demohelpuser</string>
+    <string name="localization_demo_transround_link">https://http://transround.com/</string>
     
-    <string-array name="languages_array">
-        <item>@string/lang_display_name_cmn</item>
-        <item>@string/lang_display_name_hi</item>
-        <item>@string/lang_display_name_es_es</item>
-        <item>@string/lang_display_name_ru</item>
-        <item>@string/lang_display_name_pt</item>
-        <item>@string/lang_display_name_ar</item>
-        <item>@string/lang_display_name_de</item>
-        <item>@string/lang_display_name_fr</item>
-        <item>@string/lang_display_name_tr</item>
-        <item>@string/lang_display_name_pl</item>
-        <item>@string/lang_display_name_ko</item>
-    </string-array> 
     
-    <string name="DIFFERENT_SOURCE_LENGTH_EXCEPTION">The length of input arrays are different!</string>
+    <string name="localization_demo_app_name">App Localization Demo Dev</string>
+    <string name="localization_demo_ic_action_help">Help</string>
+    <string name="localization_demo_label_fruit">Fruit</string>
+    <string name="localization_demo_label_calories">Calories (kcal)</string>
+    <string name="localization_demo_label_protein">Protein (g)</string>
+    <string name="localization_demo_label_carbohydrate">Carbohydrate (g)</string>
+    <string name="localization_demo_label_fibre">Fibre (g)</string>
+    <string name="localization_demo_label_daily_value">Daily Value (%)</string>
+
+    <string-array name="localization_demo_fruit_array">
+        <item>Apple</item>
+        <item>Banana</item>
+        <item>Pineapple</item>
+        <item>Lemon</item>
+        <item>Orange</item>
+        <item>Grapefruit</item>
+        <item>Pear</item>
+        <item>Grape</item>
+        <item>Raspberry</item>
+        <item>Water melon</item>
+        <item>Sour cherry</item>
+    </string-array>
 
 </resources>
